@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://belma:Belma123@cluster0.kn4cg.mongodb.net/shoesShop?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://name:password@cluster0.kn4cg.mongodb.net/shoesShop?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
